@@ -1,0 +1,11 @@
+.list-profile {
+  position: absolute;
+  width: 260px;
+  height: 170px;
+  top: 40px;
+  left: -70px;
+  background-color: white;
+  color: black;
+  z-index: 1;
+  border-radius: 5px;
+}

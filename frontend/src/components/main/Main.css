@@ -1,0 +1,41 @@
+.main-page {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 800px;
+  /* background-color: red; */
+  top: 60px;
+  user-select: none;
+  color: black;
+}
+
+.p-main {
+  position: relative;
+  top: 60px;
+  font-weight: 900;
+  font-size: 45px;
+}
+
+.p-not-main {
+  position: absolute;
+  top: 170px;
+}
+
+.a-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  position: absolute;
+  color: black;
+  background-color: rgb(245, 245, 13);
+  border-radius: 5px;
+  top: 250px;
+  transition: 0.2s ease;
+}
+
+.a-main:hover {
+  background-color: rgb(225, 225, 28);
+}

@@ -1,0 +1,13 @@
+.all {
+  position: relative;
+  width: 1150px;
+  height: 100px;
+  /* background-color: rgb(218, 202, 172); */
+  left: 350px;
+}
+
+.header-width {
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
