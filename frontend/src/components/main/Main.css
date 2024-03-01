@@ -3,7 +3,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  height: 800px;
+  height: 660px;
   /* background-color: red; */
   top: 60px;
   user-select: none;
@@ -38,4 +38,146 @@
 
 .a-main:hover {
   background-color: rgb(225, 225, 28);
+}
+
+.photo_money {
+  position: absolute;
+  width: 550px;
+  top: 340px;
+}
+
+.choice_services {
+  position: relative;
+  display: flex;
+  top: 100px;
+  left: 50px;
+  width: 1000px;
+  height: 110px;
+  background-color: white;
+  border-radius: 7px;
+}
+
+.choice_services_all {
+  display: flex;
+  position: relative;
+  left: 38px;
+}
+
+.all_cards_link {
+  display: flex;
+}
+
+.all_cards {
+  position: relative;
+  display: flex;
+  margin-right: 30px;
+  text-align: center;
+  font-size: 14px;
+  top: 55px;
+  left: 20px;
+  color: grey;
+  transition: 0.2s ease;
+  height: 35px;
+  user-select: none;
+}
+
+.all_cards:hover {
+  color: black;
+}
+
+.photo_card_one {
+  position: absolute;
+  width: 27px;
+  top: -30px;
+  left: 20px;
+}
+
+.photo_credit_card {
+  position: absolute;
+  width: 27px;
+  top: -30px;
+  left: 12px;
+}
+
+.premiun_services {
+  position: relative;
+  display: flex;
+  top: 55px;
+  left: 30px;
+  height: 0px;
+}
+
+.all_prem_services {
+  color: gray;
+  height: 15px;
+  margin-right: 25px;
+  justify-content: center;
+  font-size: 14px;
+  user-select: none;
+}
+
+.all_prem_services:hover {
+  color: black;
+}
+
+.crown {
+  position: absolute;
+  width: 30px;
+  top: -30px;
+  left: 15px;
+}
+
+.moneybox {
+  position: absolute;
+  width: 35px;
+  top: -33px;
+  left: 95px;
+}
+
+.money_chart {
+  position: absolute;
+  width: 35px;
+  top: -30px;
+  left: 185px;
+}
+
+.Additional_services {
+  display: flex;
+  position: relative;
+  top: 55px;
+  left: 40px;
+  height: 0px;
+}
+
+.all_add_services {
+  color: grey;
+  height: 15px;
+  font-size: 14px;
+  margin-right: 25px;
+  user-select: none;
+}
+
+.all_add_services:hover {
+  color: black;
+}
+
+.sim_card {
+  position: absolute;
+  width: 30px;
+  top: -30px;
+  left: 18px;
+}
+
+.shield {
+  position: absolute;
+  width: 24px;
+  top: -30px;
+  left: 123px;
+}
+
+.plane {
+  position: absolute;
+  width: 35px;
+  top: -23px;
+  left: 230px;
 }
