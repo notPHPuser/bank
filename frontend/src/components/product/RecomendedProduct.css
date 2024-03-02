@@ -13,7 +13,7 @@
   position: absolute;
   display: flex;
   justify-content: center;
-  width: 450px;
+  width: 480px;
   height: 370px;
   background-color: #9299a2;
   left: 50px;
@@ -66,15 +66,62 @@
 }
 
 .first_product1:hover {
-  transform: scale(1.1);
+  transform: scale(1.02);
 }
 
-/* .first_product2 {
+.first_product2 {
   position: absolute;
   display: flex;
   justify-content: center;
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  left: 100px;
-} */
+  width: 480px;
+  height: 370px;
+  background-color: #c6cacf;
+  left: 568px;
+  top: 150px;
+  border-radius: 20px;
+  color: black;
+  user-select: none;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.first_product2:hover {
+  transform: scale(1.02);
+}
+
+.crh2 {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+}
+
+.crp2 {
+  position: absolute;
+  top: 70px;
+}
+
+.cra22 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  top: 310px;
+  color: black;
+  background-color: rgb(235, 235, 235);
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  transition: 0.2s ease;
+  z-index: 1;
+}
+
+.cra22:hover {
+  color: grey;
+}
+
+.gifts20000 {
+  position: absolute;
+  width: 350px;
+  top: 120px;
+}
