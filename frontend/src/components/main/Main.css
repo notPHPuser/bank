@@ -79,6 +79,7 @@
   transition: 0.2s ease;
   height: 35px;
   user-select: none;
+  transition: 0.2s ease;
 }
 
 .all_cards:hover {
@@ -114,6 +115,7 @@
   justify-content: center;
   font-size: 14px;
   user-select: none;
+  transition: 0.2s ease;
 }
 
 .all_prem_services:hover {
@@ -155,6 +157,7 @@
   font-size: 14px;
   margin-right: 25px;
   user-select: none;
+  transition: 0.2s ease;
 }
 
 .all_add_services:hover {

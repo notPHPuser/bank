@@ -1,0 +1,80 @@
+.recProduct {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 150px;
+}
+
+.h1_rec {
+  font-size: 40px;
+}
+
+.first_product1 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 450px;
+  height: 370px;
+  background-color: #9299a2;
+  left: 50px;
+  top: 150px;
+  border-radius: 20px;
+  color: rgb(232, 232, 232);
+  user-select: none;
+  text-align: center;
+  transition: 0.5s ease;
+}
+
+.crh1 {
+  font-size: 20px;
+  position: absolute;
+  top: 30px;
+  z-index: 1;
+}
+
+.crp1 {
+  position: absolute;
+  top: 70px;
+  z-index: 1;
+}
+
+.cardCP {
+  position: absolute;
+  width: 200px;
+  z-index: 0;
+  top: 110px;
+}
+
+.cra11 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  top: 310px;
+  color: black;
+  background-color: rgb(235, 235, 235);
+  width: 150px;
+  height: 40px;
+  border-radius: 7px;
+  transition: 0.2s ease;
+  z-index: 1;
+}
+
+.cra11:hover {
+  color: grey;
+}
+
+.first_product1:hover {
+  transform: scale(1.1);
+}
+
+/* .first_product2 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  left: 100px;
+} */
