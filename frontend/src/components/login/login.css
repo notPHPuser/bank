@@ -1,0 +1,55 @@
+.register {
+  position: absolute;
+  left: 700px;
+  top: 200px;
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  width: 500px;
+  height: 500px;
+  /* border: 1px solid black; */
+  border: none;
+}
+.text_register {
+  position: relative;
+  left: 200px;
+}
+input {
+  outline: none;
+}
+.forReg {
+  background-color: inherit;
+  /* border: 1px solid black; */
+  border-bottom: 1px solid black;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  /* border: none; */
+  position: relative;
+  top: 100px;
+  left: -100px;
+  height: 30px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.submitRegister {
+  position: relative;
+  background-color: rgb(245, 245, 13);
+  width: 140px;
+  height: 40px;
+  border-radius: 5px;
+  transition: 0.2s ease;
+  top: 100px;
+  left: 20px;
+}
+
+.submitRegister:hover {
+  background-color: rgb(225, 225, 28);
+}
+
+button,
+button:active,
+button:focus {
+  border: none;
+}
