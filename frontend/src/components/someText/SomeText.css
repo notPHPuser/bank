@@ -1,0 +1,20 @@
+.WeAreGood {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 1200px;
+}
+
+.goodText {
+  font-size: 40px;
+}
+
+.goodItem {
+  position: absolute;
+  width: 995px;
+  height: 250px;
+  background-color: white;
+  left: 50px;
+  border-radius: 20px;
+  top: 130px;
+}

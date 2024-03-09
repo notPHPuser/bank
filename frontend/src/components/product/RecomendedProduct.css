@@ -207,3 +207,19 @@
   width: 200px;
   top: 170px;
 }
+
+.all_rec_products {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  width: 140px;
+  height: 40px;
+  border: 0.2px solid rgb(175, 175, 175);
+  user-select: none;
+  color: rgb(76, 76, 255);
+  border-radius: 7px;
+  top: 1000px;
+  left: 479px;
+}

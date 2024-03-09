@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/header/Header';
 import Main from './components/main/Main';
 import RecomendedProduct from './components/product/RecomendedProduct';
+import SomeText from './components/someText/SomeText';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
           <Header />
           <Main />
           <RecomendedProduct />
+          <SomeText />
         </div>
       </div>
     </>

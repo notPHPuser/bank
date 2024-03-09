@@ -55,6 +55,7 @@ function RecomendedProduct() {
             <a className='a_c'>Рассчитать стоимость</a>
           </div>
         </div>
+        <a className='all_rec_products'>Все продукты</a>
       </div>
     </>
   );
