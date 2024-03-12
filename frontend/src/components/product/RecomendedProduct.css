@@ -222,4 +222,10 @@
   border-radius: 7px;
   top: 1000px;
   left: 479px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.all_rec_products:hover {
+  background-color: rgb(220, 220, 220);
 }
