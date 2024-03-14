@@ -1,0 +1,22 @@
+.profile_name {
+  margin-bottom: 10px;
+  position: relative;
+  top: -10px;
+}
+
+.ul_profile {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+  border-bottom: 1px solid grey;
+
+  width: 320px;
+}
+.row {
+  position: absolute;
+  left: 570px;
+
+  width: 0px;
+  height: 600px;
+  border: 1px solid grey;
+}
