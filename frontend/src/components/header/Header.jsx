@@ -20,9 +20,9 @@ function Header() {
         <Link to='/login' className='profile'>
           <span>Личный кабинет</span>
           <img src={logo} className='logo' />
-          <div className='listPro'>
+          {/* <div className='listPro'>
             <ListProfile />
-          </div>
+          </div> */}
         </Link>
       </div>
     </>

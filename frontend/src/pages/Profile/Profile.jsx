@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Header from '../../components/header/Header.jsx';
 import './Profile.css';
 
@@ -11,11 +12,10 @@ function Profile() {
         </div>
       </div>
       <div className='my_profile'>
-        <ul className='ul_profile'>
-          <li className='profile_name'>Михаил</li>
-          <li className='profile_name'>Креветкин</li>
-        </ul>
-        <div className='row'></div>
+        <h1 className='hello'>Здравствуйте!</h1>
+        <Link className='create_own_href' to='/create_own'>
+          Создать карту
+        </Link>
       </div>
     </>
   );

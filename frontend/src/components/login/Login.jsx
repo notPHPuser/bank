@@ -24,6 +24,7 @@ function Login() {
         <h1 className='text_register'>Регестрация</h1>
         <form onSubmit={addPost}>
           <input
+            name='login'
             className='forReg'
             type='text'
             value={login}
@@ -32,6 +33,7 @@ function Login() {
             required
           />
           <input
+            name='email'
             className='forReg'
             type='email'
             value={email}
@@ -40,6 +42,7 @@ function Login() {
             required
           />
           <input
+            name='password'
             className='forReg'
             type='password'
             value={password}

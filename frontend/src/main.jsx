@@ -5,6 +5,8 @@ import './index.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Login from './components/login/Login.jsx';
 import Profile from './pages/Profile/Profile.jsx';
+import CreateCards from './pages/createCards/CreateCards.jsx';
+import YourCards from './pages/yourCards/YourCards.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +20,14 @@ const router = createBrowserRouter([
   {
     path: '/profile',
     element: <Profile />,
+  },
+  {
+    path: '/create_own',
+    element: <CreateCards />,
+  },
+  {
+    path: '/your_cards',
+    element: <YourCards />,
   },
 ]);
 
